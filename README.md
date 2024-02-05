@@ -9,5 +9,9 @@ MAX6818-debouncing-circuit
 <img src="20240205_173513_HDR.jpg" alt="image" width="300" height="auto"><br>
 <img src="20240205_173526_HDR.jpg" alt="image" width="300" height="auto"><br>
 <img src="20240205_173610_HDR.jpg" alt="image" width="300" height="auto">
+
 ### Notes
 - Three-state Enable(Active Low, Pin 1) may be unneeded, if this is true, switches may omit the 5V supply (see [datasheet](max6816-max6818.pdf)'s page 1, untested)
+
+### Related
+- [dirkarnez/EIE3105_Debounce_Test](https://github.com/dirkarnez/EIE3105_Debounce_Test)
