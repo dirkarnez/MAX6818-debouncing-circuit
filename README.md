@@ -4,7 +4,7 @@ I did everything wrong. MAX6818 pulled up the buttons with internal pullup resis
 - [MAX6818-Based Debounced Breadboard Keypad | The Life of Kenneth](https://blog.thelifeofkenneth.com/2011/09/max6818-based-debounced-breadboard.html)
 
 ### Solution
-- Add pull down resistors to **pullup-ed (according to datasheet it is typically 63k resistor)** input pins ([Circuit JS file](./circuit-20241113-2108.circuitjs.txt))
+- Add pull down resistors (Use voltage divider equation to get the best resistence value, i blindly used 10k) to **internally pullup-ed (according to datasheet it is typically 63k resistor)** input pins ([Circuit JS file](./circuit-20241113-2108.circuitjs.txt))
 ![](./ON.svg)
 ![](./OFF.svg)
 
