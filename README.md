@@ -8,7 +8,7 @@ I did everything wrong. MAX6818 pulled up the buttons with internal pullup resis
 ![](./ON.svg)
 ![](./OFF.svg)
 
-### Before knowing i was wrong (it looked working in breadboard and oscilloscope because i have never connect it to the the digital input of MCU, i guess the output voltage was biased by some volts so it is always on, at the same time the square wave is still generated
+### Before knowing i was wrong (it looked working in breadboard and oscilloscope because i have never connect it to the the digital input of MCU, i guess the output voltage was biased by some volts so it always outputs digital `High`, at the same time the square wave is still generated
 <img src="20240205_173454_HDR.jpg" width="300" height="auto">
 
 ### The [circuit](circuit-20240205-1915.circuitjs.txt) for [Circuit JS/Falstad](https://www.falstad.com/circuit/circuitjs.html)
